@@ -8,9 +8,10 @@
         android:layout_height="50dp"
         android:background="#484E61" >
 		<Button android:id="@+id/switch_city"
-			    android:layout_width="wrap_content"
+			    android:layout_width="100dp"
 			    android:layout_height="50dp"
-			    android:gravity="left"
+			    android:layout_centerVertical="true"
+				android:layout_marginLeft="10dp"
 			    android:textColor="#fff"
 			    android:text="@string/switch_city"/>
         <TextView
@@ -22,9 +23,11 @@
             android:textSize="24sp" />
         
         <Button android:id="@+id/refresh_weather"
-			    android:layout_width="wrap_content"
+			    android:layout_width="60dp"
 			    android:layout_height="50dp"
-			    android:layout_marginLeft="250dp"
+			    android:layout_alignParentRight="true"
+			    android:layout_centerVertical="true"
+			    android:layout_marginRight="10dp"
 			    android:textColor="#fff"
 			    android:gravity="right"
 			    android:text="@string/refresh"/>
